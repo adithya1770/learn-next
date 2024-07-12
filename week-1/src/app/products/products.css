@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    background-image: none;
+    overflow-y: scroll;
+
+}
+
+.div-clr{
+    background-color: #32CD32;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.brdr{
+    border-radius: 15px 50px;
+}
+.mix{
+    mix-blend-mode: multiply;
+}
+
+
