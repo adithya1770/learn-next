@@ -6,7 +6,7 @@ body{
 }
 
 .div-clr{
-    background-color: #32CD32;
+    background-color: black;
 }
 
 .material-symbols-outlined {
@@ -23,5 +23,9 @@ body{
 .mix{
     mix-blend-mode: multiply;
 }
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
 
 
