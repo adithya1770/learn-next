@@ -1,5 +1,7 @@
 import React from 'react'
 import './page.css'
+import Button from '@components/Button'
+import Navbar from '@/components/Navbar'
 
 const page = () => {
   return (
@@ -18,6 +20,12 @@ const page = () => {
     <div className='absolute right-44 bottom-5 h-64 w-64 moving'>
       <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="https://img.lovepik.com/element/45009/1966.png_860.png" />
     </div>
+  </div>
+  <div className='pt-80 h-52 w-64'>
+  <Button/>
+  <br />
+  <br />
+  <Navbar/>
   </div>
   </div>
 

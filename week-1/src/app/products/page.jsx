@@ -25,7 +25,7 @@ const page = () => {
         </div>
         <div></div>
         <div className='absolute right-24 top-12'>
-            <a href="" className='font-extrabold text-4xl'>Cart</a>
+            <a href="/cart" className='font-extrabold text-4xl'>Cart</a>
         </div>
         <div>
         <h1 className='text-white absolute right-48 top-48 text-4xl font-bold'>Essentials</h1>
