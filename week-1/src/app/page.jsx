@@ -4,6 +4,8 @@ import Button from '@components/Button'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
+import nav from '/public/nav.png';
 
 const page = () => {
   return (
@@ -23,7 +25,9 @@ const page = () => {
       <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="https://img.lovepik.com/element/45009/1966.png_860.png" />
     </div>
   </div>
-  <div className='pt-80 h-52 w-64'>
+  <div className='pt-80 pl-130 h-52 w-64'>
+    <Image 
+    src={nav}/>
   <Button/>
   <br />
   <br />
