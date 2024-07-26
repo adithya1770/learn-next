@@ -2,6 +2,8 @@ import React from 'react'
 import './page.css'
 import Button from '@components/Button'
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
+import Footer from '@/components/Footer'
 
 const page = () => {
   return (
@@ -27,8 +29,8 @@ const page = () => {
   <br />
   <Navbar/>
   </div>
+  <Footer />
   </div>
-
   )
 }
 
